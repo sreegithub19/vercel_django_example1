@@ -1,5 +1,5 @@
 - Steps to run:
-  (Reference: https://jay-hale.medium.com/django-on-vercel-in-30-minutes-e69eed15b616)
+  (Reference : https://jay-hale.medium.com/django-on-vercel-in-30-minutes-e69eed15b616)
 
   - - cd into the application directory
   - - django-admin startproject vercel_app .
