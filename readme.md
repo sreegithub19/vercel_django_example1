@@ -17,11 +17,16 @@
 - Deploying to Vercel:
 
   - vercel login
-  - Create and fill "requirements.txt" (pip show <package_name> -> for info on the package)
+  - Create and fill "requirements.txt" accordingly (pip show <package_name> -> for info on the package)
   - Create "vercel.json" in root folder, and fill it as shown in the file.
   - Add this line in "vercel_app/wsgi.py" : app = application
   - vercel # (for preview)
   - vercel --prod # (for production)
+
+- Hiding secret key:
+
+  - Create .env file in the directory as settings.py , and add it to .gitignore
+  - Put the secret key in the .env file (from "settings.py")
 
 - All in one:
 - - git add . && git commit -m "Changes" && git push origin main && vercel && vercel --prod
