@@ -31,6 +31,7 @@
 - All in one:
 - - git add . && git commit -m "Changes" && git push origin main && vercel && vercel --prod
 
+
 - Versions used:
   - Python: 3.8.0
   - Django: 4.1.1
