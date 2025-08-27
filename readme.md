@@ -29,6 +29,7 @@
   - Put the secret key in the .env file (from "settings.py")
 
 - All in one:
+
 - - git add . && git commit -m "Changes" && git push origin main && vercel && vercel --prod
 
 - Versions used:
